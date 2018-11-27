@@ -1,0 +1,4 @@
+C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/FLS_Library_GUI.dir
+C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/FLS_Library_GUI_autogen.dir
+C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\16bd7540ad66975bf9b3366e5d655d9f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F3A3E76B-7E8A-377B-8BE6-6BC2E386263B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

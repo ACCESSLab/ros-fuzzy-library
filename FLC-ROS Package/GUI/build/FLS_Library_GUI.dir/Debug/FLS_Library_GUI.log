@@ -1,0 +1,35 @@
+﻿  Building Custom Rule C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/generate.stamp is up-to-date.
+  Generating ui_mainwindow.h
+C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget1'.
+C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget2'.
+C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget3'.
+C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget4'.
+C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget5'.
+  Generating ui_inputdialog.h
+C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inputdialog.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget1'.
+  Generating ui_outputdialog.h
+  Generating ui_ruledialog.h
+  Generating ui_inmfsdialog.h
+  Generating ui_outmfsdialog.h
+  Generating ui_addrulesdialog.h
+C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\addrulesdialog.ui : warning : The name 'layoutWidget' (QWidget) is already in use, defaulting to 'layoutWidget1'.
+  Generating ui_intabledialog.h
+  Generating ui_outtabledialog.h
+  main.cpp
+  mainwindow.cpp
+  inputdialog.cpp
+  outputdialog.cpp
+  ruledialog.cpp
+  inmfsdialog.cpp
+  outmfsdialog.cpp
+  addrulesdialog.cpp
+  intabledialog.cpp
+  outtabledialog.cpp
+  XMLReader.cpp
+  XMLWriter.cpp
+  MetaRecord.cpp
+  mocs_compilation.cpp
+  Generating Code...
+  FLS_Library_GUI.vcxproj -> C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\Debug\FLS_Library_GUI.exe
+  FLS_Library_GUI.vcxproj -> C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/Debug/FLS_Library_GUI.pdb (Full PDB)

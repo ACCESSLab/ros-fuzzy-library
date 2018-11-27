@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07D2F10B-D00A-3EA7-978E-2012E3C74BCD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>FLS_Library_GUI_autogen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src" "-BC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build" --check-stamp-file "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCCompiler.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src" "-BC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build" --check-stamp-file "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCCompiler.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src" "-BC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build" --check-stamp-file "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCCompiler.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src" "-BC:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build" --check-stamp-file "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCCompiler.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\3.9.4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;C:\Qt\5.9.2\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_mainwindow.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_mainwindow.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_mainwindow.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_mainwindow.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/mainwindow.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\mainwindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inputdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_inputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_inputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_inputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_inputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outputdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_outputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_outputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_outputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_outputdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outputdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outputdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outputdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\ruledialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_ruledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_ruledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\ruledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_ruledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_ruledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\ruledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_ruledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_ruledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\ruledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_ruledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_ruledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/ruledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\ruledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inmfsdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_inmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_inmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_inmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_inmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_inmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/inmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\inmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outmfsdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_outmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_outmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_outmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_outmfsdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outmfsdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outmfsdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outmfsdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\addrulesdialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_addrulesdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_addrulesdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\addrulesdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_addrulesdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_addrulesdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\addrulesdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_addrulesdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_addrulesdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\addrulesdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_addrulesdialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_addrulesdialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/addrulesdialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\addrulesdialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\intabledialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_intabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_intabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\intabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_intabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_intabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\intabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_intabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_intabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\intabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_intabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_intabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/intabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\intabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outtabledialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_outtabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outtabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outtabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_outtabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outtabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outtabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_outtabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outtabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outtabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_outtabledialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\5.9.2\msvc2017_64\bin\uic.exe -o "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/ui_outtabledialog.h" "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/src/outtabledialog.ui;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\src\outtabledialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\16bd7540ad66975bf9b3366e5d655d9f\FLS_Library_GUI_autogen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic MOC for target FLS_Library_GUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/FLS_Library_GUI_autogen.dir" Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/16bd7540ad66975bf9b3366e5d655d9f/FLS_Library_GUI_autogen.rule;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\FLS_Library_GUI_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic MOC for target FLS_Library_GUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/FLS_Library_GUI_autogen.dir" Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/16bd7540ad66975bf9b3366e5d655d9f/FLS_Library_GUI_autogen.rule;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\FLS_Library_GUI_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic MOC for target FLS_Library_GUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/FLS_Library_GUI_autogen.dir" MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/16bd7540ad66975bf9b3366e5d655d9f/FLS_Library_GUI_autogen.rule;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\FLS_Library_GUI_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic MOC for target FLS_Library_GUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/FLS_Library_GUI_autogen.dir" RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Abel/Transporter/Transporter/Abel Hailemichael/Workspace/FLS Library/GUI/build/CMakeFiles/16bd7540ad66975bf9b3366e5d655d9f/FLS_Library_GUI_autogen.rule;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_mainwindow.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outputdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_ruledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_inmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outmfsdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_addrulesdialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_intabledialog.h;C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ui_outtabledialog.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\FLS_Library_GUI_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\CMakeFiles\FLS_Library_GUI_autogen" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Abel\Transporter\Transporter\Abel Hailemichael\Workspace\FLS Library\GUI\build\ZERO_CHECK.vcxproj">
+      <Project>{AE6BD5CF-F31D-3638-B5E8-984A13EDDE44}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
